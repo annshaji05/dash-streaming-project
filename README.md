@@ -1,7 +1,7 @@
 # DASH Video Streaming Project 
 
 ##Overview 
-End-toend DASH video streaming setup using ffmpeg, Nginx and Linux traffic control.
+End-to-end DASH video streaming setup using ffmpeg, Nginx and Linux traffic control.
 
 ##Structure
 - /dash -DASH manifest and video segments
