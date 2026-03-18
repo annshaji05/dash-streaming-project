@@ -1,9 +1,9 @@
 # DASH Video Streaming Project 
 
-##Overview 
+## Overview 
 End-to-end DASH video streaming setup using ffmpeg, Nginx and Linux traffic control.
 
-##Structure
+## Structure
 - /dash -DASH manifest and video segments
 - /screenshots - Evidence screenshots
 - /configs -Nginx and traffic control configs
@@ -14,7 +14,7 @@ End-to-end DASH video streaming setup using ffmpeg, Nginx and Linux traffic cont
 3. Copy dash folder to /var/www/html/
 4. Apply traffic control rules as per configs folder 
 
-##Requirements
+## Requirements
 - Ubuntu 24.04
 - VirtualBox with two VMs (Server + Client)
 - ffmpeg, Nginx, iperf3
