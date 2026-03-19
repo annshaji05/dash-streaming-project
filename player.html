@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DASH Video Player</title>
+  <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+</head>
+<body>
+  <h1>Video 1</h1>
+  <video id="video1" controls width="720"></video>
+
+  <h1>Video 2</h1>
+  <video id="video2" controls width="720"></video>
+
+  <script>
+    var player1 = dashjs.MediaPlayer().create();
+    player1.initialize(document.getElementById("video1"),
+    "http://192.168.56.1/dash/video1/manifest.mpd", true);
+
+    var player2 = dashjs.MediaPlayer().create();
+    player2.initialize(document.getElementById("video2"),
+    "http://192.168.56.1/dash/video2/manifest.mpd", true);
+  </script>
+</body>
+</html>
