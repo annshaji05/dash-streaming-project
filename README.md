@@ -50,7 +50,7 @@ sudo cp configs/nginx.conf /etc/nginx/sites-available/default
 sudo systemctl restart nginx
 ```
 
-### Step 5 - Apply traffic control (choose one scenario)
+### Step 5 - Apply traffic control
 See configs/traffic-control.sh for all commands
 
 ### Step 6 - Play video on client VM
